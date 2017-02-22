@@ -1,0 +1,161 @@
+//
+// Flex - Mixins
+// ----------------------------------------------------------------------
+
+@mixin flex {
+    display: flex;
+}
+    %flex    { @include flex; }
+    %flexbox { @include flex; }
+
+@mixin flex-inline {
+    display: inline-flex;
+}
+    %inline-flex { @include inline-flex; }
+    %flex-inline { @include inline-flex; }
+
+@mixin flex-align-content($value: stretch) {
+    align-content: $value;
+}
+
+@mixin flex-align-self($value: auto) {
+    align-self: $value;
+}
+
+@mixin flex-basis($width) {
+    flex-basis: $width;
+}
+
+@mixin flex-order($int: 0) {
+    order: $int;
+}
+
+@mixin flex-flow($values: (row nowrap)) {
+    flex-flow: $values;
+}
+
+
+//------- FLEX WRAP -------//
+
+// flex-wrap
+@mixin flex-wrap($value: nowrap) {
+    // wrap | nowrap
+    flex-wrap: $value;
+}
+
+// items wrap
+@mixin flex-items-wrap {
+    @include flex-wrap(wrap);
+}
+
+// items nowrap
+@mixin flex-items-nowrap {
+    @include flex-wrap(nowrap);
+}
+
+
+//------- FLEX DIRECTION -------//
+
+// items row
+@mixin flex-items-row {
+    flex-direction: row;
+}
+
+// items columns
+@mixin flex-items-column {
+    flex-direction: column;
+}
+
+
+//------- JUSTIFY CONTENT -------//
+
+@mixin flex-justify($value: flex-start) {
+    justify-content: $value;
+}
+
+// items left
+@mixin flex-items-left {
+    @include flex-justify(flex-start);
+}
+
+// items right
+@mixin flex-items-right {
+    @include flex-justify(flex-end);
+}
+
+// items center
+@mixin flex-items-center {
+    @include flex-justify(center);
+}
+
+// items between
+@mixin flex-items-space-between {
+    @include flex-justify(space-between);
+}
+
+// items around
+@mixin flex-items-space-around {
+    @include flex-justify(space-around);
+}
+
+
+//------- ALIGN ITEMS -------//
+
+@mixin flex-align-items($value: stretch) {
+    // flex-start | flex-end | center | baseline | stretch
+    align-items: $value;
+}
+
+// items vertical top
+@mixin flex-items-top {
+    @include flex-align-items(flex-start);
+}
+
+// items vertical middle
+@mixin flex-items-middle {
+    @include flex-align-items(center);
+}
+
+// items vertical bottom
+@mixin flex-items-bottom {
+    @include flex-align-items(flex-end);
+}
+
+// items strech
+@mixin flex-items-stretch {
+    @include flex-align-items(stretch);
+}
+
+// items baseline
+@mixin flex-items-baseline {
+    @include flex-align-items(baseline);
+}
+
+// item grow
+@mixin flex-item-grow($grow: 0) {
+    flex-grow: $grow;
+}
+
+// item auto
+@mixin flex-item-auto {
+    flex: auto;
+}
+
+// item one
+@mixin flex-item-one {
+    flex: 1;
+}
+
+// item shrink
+@mixin flex-item-shrink($num: 0) {
+    flex-shrink: $num;
+}
+
+// item width
+@mixin flex-item-width($width) {
+    flex: 0 0 $width;
+
+    @include breakpoint(sm) {
+        flex: 0 0 100% !important;
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "darkmatter-ui",
+  "version": "0.0.1",
+  "description": "Super clean/simple SCSS & ReactJS UI Framework based lossly from material design principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siteappy/darkmatter-ui.git"
+  },
+  "keywords": [
+    "SCSS",
+    "ReactJS",
+    "UI",
+    "Framework",
+    "UI",
+    "Simple",
+    "Clean",
+    "Material",
+    "Design",
+    "Material",
+    "UI",
+    "React",
+    "Material",
+    "UI"
+  ],
+  "author": "SiteAppy, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siteappy/darkmatter-ui/issues"
+  },
+  "homepage": "https://github.com/siteappy/darkmatter-ui#readme",
+  "dependencies": {
+    "babel-loader": "^6.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0",
+    "modularscale-sass": "^2.1.1",
+    "node-sass": "^4.5.0",
+    "sass": "^0.5.0",
+    "typography": "^0.15.8"
+  }
+}

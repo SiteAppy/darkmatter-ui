@@ -1,0 +1,32 @@
+//
+// Flex - Styles
+// ----------------------------------------------------------------------
+
+.flex {
+    @include flex;
+}
+
+@include breakpoint(sm) {
+    .flex-column-sm {
+        @include flex-items-column;
+    }
+    .flex-w100-sm {
+        @include flex-item-width(100%);
+    }
+}
+
+// Flex Alignment
+
+.align-middle {
+    @include flex-items-middle;
+}
+.align-right {
+    @include flex-items-right;
+}
+.align-center {
+    @include flex-items-center;
+}
+
+@include breakpoint(sm) {
+    .align-left-sm { @include flex-items-left; }
+}

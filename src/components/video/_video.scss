@@ -1,0 +1,21 @@
+//
+// Video
+// ----------------------------------------------------------------------
+
+// Responsive embedded objects
+.video-container {
+    height: 0;
+    padding-bottom: 56.25%; // ratio 16:9
+    position: relative;
+    margin-bottom: $text-margin-bottom;
+    & iframe,
+    & object,
+    & embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+

@@ -1,0 +1,18 @@
+//
+// Visual Effects
+// ----------------------------------------------------------------------
+
+// blur
+@mixin blur($radius) {
+    filter: blur($radius);
+}
+
+// striped
+@mixin striped($color: rgba(255, 255, 255, .2), $angle: 45deg) {
+    background-image: linear-gradient($angle, $color 25%, transparent 25%, transparent 50%, $color 50%, $color 75%, transparent 75%, transparent);
+}
+
+// opacity
+@mixin opacity($value) {
+  opacity: $value;
+}

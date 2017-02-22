@@ -1,0 +1,42 @@
+//
+// Visuals
+// ----------------------------------------------------------------------
+
+// visibility
+.invisible {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
+
+// display
+.display-block {
+    display: block;
+}
+.hide {
+    display: none !important;
+}
+
+// hide for small
+@include breakpoint(sm) {
+    .hide-sm {
+        display: none !important;
+    }
+}
+@include breakpoint($min: $sm) {
+    .show-sm {
+        display: none !important;
+    }
+}
+
+
+// no scroll
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+}

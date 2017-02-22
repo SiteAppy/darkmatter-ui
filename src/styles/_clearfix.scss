@@ -1,0 +1,12 @@
+//
+// Clearfix
+// ----------------------------------------------------------------------
+
+.cf,
+.clearfix {
+    @include clearfix;
+}
+
+.group {
+    @include clearfix;   
+}

@@ -1,0 +1,19 @@
+//
+// Overlay
+// ----------------------------------------------------------------------
+
+.overlay {
+    position: fixed;
+    z-index: $z-over-control;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $overlay-background-color;
+
+    & > .close {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+    }
+}

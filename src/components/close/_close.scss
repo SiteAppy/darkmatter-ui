@@ -1,0 +1,25 @@
+// Close
+.close {
+
+    display: inline-block;
+    min-height: 16px;
+    min-width: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    opacity: .6;
+
+    &:hover {
+        opacity: 1;
+    }
+    &.small {
+        font-size: 8px;
+    }
+    &.big {
+        font-size: 18px;
+    }
+    &.white {
+        color: #fff;
+    }
+}
