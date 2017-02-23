@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
   <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24"/>
     <g fill="#000000" transform="translate(0 2)">
       <path fill-rule="nonzero" d="M2,2 L2,18 L22,18 L22,2 L2,2 Z M2,0.5 L22,0.5 C22.8284271,0.5 23.5,1.17157288 23.5,2 L23.5,18 C23.5,18.8284271 22.8284271,19.5 22,19.5 L2,19.5 C1.17157288,19.5 0.5,18.8284271 0.5,18 L0.5,2 C0.5,1.17157288 1.17157288,0.5 2,0.5 Z"/>
       <rect width="8" height="14" x="3" y="3"/>

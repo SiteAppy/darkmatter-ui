@@ -6,6 +6,7 @@
     </mask>
   </defs>
   <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24"/>
     <g stroke="#000000" transform="translate(2 1)" stroke-linejoin="round">
       <path stroke-width="1.5" d="M0,4.60149142 L20,4.60149142" stroke-linecap="round"/>
       <use stroke-width="3" mask="url(#b)" stroke-linecap="square" xlink:href="#a"/>
