@@ -11,8 +11,8 @@
 @mixin flex-inline {
     display: inline-flex;
 }
-    %inline-flex { @include inline-flex; }
-    %flex-inline { @include inline-flex; }
+    %inline-flex { @include flex-inline; }
+    %flex-inline { @include flex-inline; }
 
 @mixin flex-align-content($value: stretch) {
     align-content: $value;

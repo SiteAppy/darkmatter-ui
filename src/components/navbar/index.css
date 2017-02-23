@@ -1,0 +1,34 @@
+.navbar {
+  background: #04334A; }
+
+.navbar__header {
+  height: 56px;
+  background: #03283A;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.navbar__header svg {
+  height: 24px;
+  width: 24px;
+  background: green;
+  border-radius: 50%; }
+
+.navbar__title {
+  display: none; }
+
+.navigation__link {
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.navigation__link .icon {
+  height: 24px;
+  width: 24px;
+  background: green;
+  display: block; }
+
+.navigation__link .link__text {
+  display: none; }

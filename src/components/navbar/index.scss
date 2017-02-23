@@ -1,0 +1,52 @@
+//
+// Navbar
+// ----------------------------------------------------------------------
+
+@import '../../variables';
+@import '../../mixins/flex';
+
+.navbar {
+    background: $navbar-main-bg;
+}
+
+.navbar__header {
+    height: 56px;
+    background: $navbar-header-bg;
+    @include flex;
+    @include flex-items-middle;
+    @include flex-items-center;
+
+    svg {
+        height: 24px;
+        width: 24px;
+        background: green;
+        border-radius: 50%;
+    }
+}
+
+.navbar__title {
+    display: none;
+}
+
+.navbar__navigation {
+
+}
+
+.navigation__link {
+    height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    @include flex;
+    @include flex-items-middle;
+    @include flex-items-center;
+
+    .icon {
+        height: 24px;
+        width: 24px;
+        background: green;
+        display: block;
+    }
+
+    .link__text {
+        display: none;
+    }
+}

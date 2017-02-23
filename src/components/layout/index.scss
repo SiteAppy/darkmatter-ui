@@ -1,0 +1,37 @@
+//
+// Layout
+// ----------------------------------------------------------------------
+
+@import '../../variables';
+@import '../../mixins/flex';
+
+.layout {
+
+}
+
+.layout__app {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.layout__content {
+    padding-left: 60px;
+}
+
+.layout__navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px;
+}
+
+.layout__header {
+    background: #fff;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    height: 56px;
+    @include flex;
+    @include flex-items-middle;
+}
