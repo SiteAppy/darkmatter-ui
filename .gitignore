@@ -60,3 +60,5 @@ typings/
 
 # ===== End Node.gitignore =====
 
+# SVGSUS
+.svgsus
