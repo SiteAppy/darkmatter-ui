@@ -33,15 +33,15 @@
   },
   "homepage": "https://github.com/siteappy/darkmatter-ui#readme",
   "dependencies": {
-    "babel-loader": "^6.3.2"
+    "babel-loader": "^7.1.4"
   },
   "devDependencies": {
-    "eslint": "^3.16.0",
-    "eslint-plugin-react": "^6.10.0",
-    "modularscale-sass": "^2.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "modularscale-sass": "^3.0.5",
     "node-sass": "^4.5.0",
-    "sass": "^0.5.0",
-    "svgo": "^0.7.2",
-    "typography": "^0.15.8"
+    "sass": "^1.1.1",
+    "svgo": "^1.0.5",
+    "typography": "^0.16.6"
   }
 }
